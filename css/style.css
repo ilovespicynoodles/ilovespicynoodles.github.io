@@ -1,0 +1,66 @@
+html body {
+    font-family: 'Roboto', sans-serif;
+    background: rgb(241, 241, 241);
+    height: 100%;
+}
+
+#todo-title {
+    font-size: 48px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: rgb(32, 32, 32);
+}
+
+#todo-item-list {
+    margin-bottom: 32px;
+}
+
+.todo-item {
+    border-left: 7px solid rgb(255, 135, 135);
+    background: rgb(255, 255, 255);
+    box-shadow: 0 0 5px rgb(153, 153, 153);
+    padding-left: 50px;
+    padding-right: 10px;
+    height: 48px;
+    line-height: 48px;
+    margin-bottom: 8px;
+    width: 100%;
+}
+
+.todo-item-high {
+    border-left: 7px solid rgb(255, 87, 87);
+}
+
+.todo-item-medium {
+    border-left: 7px solid rgb(252, 255, 103);
+}
+
+.todo-item-low {
+    border-left: 7px solid rgb(165, 255, 80);
+}
+
+.todo-text {
+    color: rgb(31, 31, 31);
+    font-size: 18px;
+}
+
+.todo-remove-icon {
+    display: inline;
+    float: right;
+    font-size: 36px;
+    color: rgb(190, 190, 190);
+}
+
+#todo-new-input {
+    /* width: 40%; */
+}
+
+#todo-new-submit {
+    height: 38px;
+    margin-left: 20px;
+    display: inline;
+}
+
+#todo-priority{
+    margin-left: 10px;
+}

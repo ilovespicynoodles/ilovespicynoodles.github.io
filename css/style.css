@@ -17,14 +17,22 @@ html body {
 
 .todo-item {
     border-left: 7px solid rgb(255, 135, 135);
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 24px;
+    border-top-right-radius: 24px;
     background: rgb(255, 255, 255);
     box-shadow: 0 0 5px rgb(153, 153, 153);
     padding-left: 50px;
-    padding-right: 10px;
+    padding-right: 5px;
     height: 48px;
     line-height: 48px;
     margin-bottom: 8px;
     width: 100%;
+}
+
+.todo-item:hover{
+    background: rgb(241, 241, 241);
 }
 
 .todo-item-high {
@@ -49,6 +57,10 @@ html body {
     float: right;
     font-size: 36px;
     color: rgb(190, 190, 190);
+}
+
+.todo-remove-icon :hover{
+    color: rgb(255, 94, 94);
 }
 
 #todo-new-input {

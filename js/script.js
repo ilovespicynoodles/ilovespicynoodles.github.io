@@ -39,12 +39,13 @@ function addItem() {
     var divTodoCloseButton = document.createElement('i');
     divTodoCloseButton.className = 'far fa-times-circle';
     divTodoCloseButton.id = idCounter;
-    divTodoCloseButton.setAttribute('onClick', 'remove(this.id)');
+    divTodoCloseButton.setAttribute('onClick', 'removeItem(this.id)');
     divTodoCloseDiv.appendChild(divTodoCloseButton);
     idCounter++;
+    document.getElementById('todo-new-input').value = '';
 }
 
-function remove(itemId) {
+function removeItem(itemId) {
     var parentID = document.getElementById('todo-item' + itemId);
     console.log(parentID);
     parentID.remove();

@@ -17,10 +17,15 @@
 </head>
 
 <body>
+    <div class="container-fluid">
+        <div id="contact-bar">
+            <a href="https://github.com/ilovespicynoodles"><i class="fab fa-github"></i></a>
+        </div>
+    </div>
     <div class="container">
         <div class="row justify-content-center">
             <div id="todo-title">
-                    <i class="fas fa-check-square" style="color: rgb(159, 255, 103)"></i> To-Do App
+                <i class="fas fa-check-square" style="color: rgb(159, 255, 103)"></i> To-Do App
             </div>
         </div>
         <div class="row justify-content-center" id="todo-item-list">
@@ -39,20 +44,23 @@
                     placeholder="Create a new To-Do item.">
             </div>
             <div class="form-group">
-                    <!-- <label for="sel1">Select list:</label> -->
-                    <select class="form-control" id="todo-priority">
-                      <option>Priority</option>
-                      <option>High</option>
-                      <option>Medium</option>
-                      <option>Low</option>
-                    </select>
-                  </div> 
+                <!-- <label for="sel1">Select list:</label> -->
+                <select class="form-control" id="todo-priority">
+                    <option>Priority</option>
+                    <option>High</option>
+                    <option>Medium</option>
+                    <option>Low</option>
+                </select>
+            </div>
             <button type="button" id="todo-new-submit" onClick="addItem()" class="btn btn-dark">Add Item</button>
         </div>
-        <div class="row justify-content-center">
-            <p style="font-size: 12px;">Coded with <i class="fas fa-heart" style="color: rgb(255, 98, 98);"></i> by iLoveSpicyNoodles.</p>
-        </div>
     </div>
+    <footer class="footer">
+        <div class="row justify-content-center" id="footer">
+            <p style="font-size: 12px;">Coded with <i class="fas fa-heart" style="color: rgb(255, 98, 98);"></i> by
+                iLoveSpicyNoodles.</p>
+        </div>
+    </footer>
     <!-- Optional JavaScript -->
     <script src="js/script.js"></script>
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

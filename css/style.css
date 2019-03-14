@@ -25,6 +25,7 @@ html body {
 
 #todo-title {
     font-size: 48px;
+    margin-top: 20px;
     margin-bottom: 20px;
     color: rgb(32, 32, 32);
 }
